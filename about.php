@@ -47,7 +47,7 @@
       <li class="mb-3 me-1">
         <div class="member-history"><span class="arrow"></span>Formado em Tecnologia em Inteligência
           Artificial
-          e trabalhando em
+          e trabalhando na área de 
           desenvolvimento de aplicações Web.</div>
         <img src="/img/carlos.jpg" width="80" height="80" alt="Carlos Bezerra" title="Carlos Bezerra" />
         <h6>Carlos Bezerra <span>Desenvolvedor</span></h6>
