@@ -95,8 +95,6 @@
     </button>
   </div>
 
-
-
   <div class="pt-5 container main_bg px-5">
     <div class="row p-edit">
       <p class="col-sm column-1 ">

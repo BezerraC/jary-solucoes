@@ -761,6 +761,33 @@ transition: all 0.2s ease-out;
 	width: 250px;
 	
 }
+
+.page-home li .member-history{
+	background-color: #FF7E14;
+	bottom: 300px;
+	color: #FFF;
+	display: none;
+	font-size: 13px;
+	/* left: -30px; */
+	padding: 20px 15px;
+	position:absolute;
+	width: 250px;
+	cursor: pointer !important;
+}
+.page-home li .member-history .arrow {
+	background: url('../img/sprite.png') no-repeat 0 -352px;
+	bottom: -7px;
+	display: block;
+	left: 60px;
+	height: 7px;
+	position: absolute;
+	width: 14px;
+}
+
+.page-home li:hover .member-history {
+	display:block;
+}
+
 .page-about .members ul li .member-history {
 	background-color: #FF7E14;
 	bottom: 96px;
