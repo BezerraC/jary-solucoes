@@ -1,0 +1,40 @@
+<html>
+		<head>
+     	  <base href="http://www.owera.com.br">
+		  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+		  <meta name="robots" content="index, follow">
+		  <meta name="keywords" content="Aplicativo, Owera, Vista, Software, Imobiliária, Apple, Soft, Google, App, Store, Imóvel">
+		  <meta name="rights" content="">
+		  <meta name="language" content="pt-BR">
+		  <meta name="generator" content="Owera">
+		  <title>Owera - Redirecionamento para Aplicativo</title>
+			<script type="text/javascript">
+
+				  var _gaq = _gaq || [];
+				  _gaq.push(['_setAccount', 'UA-13003701-1']);
+				  _gaq.push(['_trackPageview']);
+
+				  (function() {
+				    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				  })();
+
+
+
+				function delayer(){
+					//Capturamos a URL 
+					var callingURL = document.URL; 
+
+					//Separamos os parametros 
+					var cgiString = callingURL.substring(callingURL.indexOf('&')+5,callingURL.length);
+
+					window.location.href = 'http://'+cgiString;
+				}
+           </script>
+        </head>
+<body onLoad="setTimeout('delayer()', 1000)">
+	Redirecionando...
+</body>
+
+</html>
