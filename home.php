@@ -2,7 +2,7 @@
   <div class="px-4">
     <h2>Usamos da tecnologia para tornar idéias de uma nova geração em realidade.</h2>
     <p>A Owera é uma empresa especializada no desenvolvimento de software para smartphones e tablets.</p>
-    <div class="center">
+    <div class="center mt-5">
       <img src="img/confira-ultimos-projetos.png" width="" height="" alt="Confira nossos últimos projetos" title="Confira nossos últimos projetos" />
     </div>
   </div>
@@ -86,75 +86,63 @@
 
 
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="carousel-control-prev-icon" aria-hidden="true" ></span>
       <span class="visually-hidden">Previous</span>
     </button>
     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="carousel-control-next-icon" aria-hidden="true" ></span>
       <span class="visually-hidden">Next</span>
     </button>
   </div>
 
-  <div class="pt-5 container main_bg px-5">
+  <div class="py-5 container main_bg px-5">
     <div class="row p-edit">
       <p class="col-sm column-1 ">
         A Owera agrega valor ao negócio de seus <span>clientes</span> sempre mantendo o foco no objetivo da empresa.<br>
         <a href="/produtos" class="conheca-nosso-portifolio">Conheça nosso portfolio</a>
       </p>
-      <div class="col">
-        <p class="d-flex justify-content-around">
-          <a class="btn " data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><img class="img-port" src="img/adventure.jpg" width="120" height="120" title="Adventure Fair" class="thumb-client" /></a>
-          <button class="btn " type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">
-            <img class="img-port" src="img/imoveis-joinville.jpg" width="120" height="120" title="Joinville Real State" class="thumb-client" /></button>
 
-        </p>
-        <div class="row mb-5">
-          <div class="col">
-            <div class="collapse multi-collapse" id="multiCollapseExample1">
-              <div class="card card-body">
-                App da Adventure Fair, o maior evento de esportes e turismo de aventura, serve como um guia
-                para o visitante.
-                <a href="produtos/adventurefair" type="button" class="btn btn-outline-success mt-3">Saber mais</a>
+      <div class="col members pt-t pt-4">
+        <ul class="clearfix resp-sec ">
+          <li class="mb-3 px-2 mt-5 me-1">
+            <a class="linkc" href="produtos/adventurefair" target="_blank">
+              <div class="member-history" >
+                <span class="arrow"></span>App da Adventure Fair, o maior evento de esportes e turismo de aventura, serve como um guia para o visitante. Ver mais...
               </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="collapse multi-collapse" id="multiCollapseExample2">
-              <div class="card card-body">
-                Joinville Real State Network's App. Search for house, apartments and office in South
-                Brazil.
-                <button onclick="location.href='itunes.apple.com/app/id479649603?mt=8'" class="btn btn-outline-success mt-3">Saber mais</button>
+            </a>
+              <img src="img/adventure.jpg" width="120" height="120" alt="Adventure Fair" title="Adventure Fair" />
+          </li>
+          <li class="mb-3 px-2 mt-5  me-1">
+            <a href="https://itunes.apple.com/app/id479649603?mt=8" target="_blank" >
+              <div class="member-history">
+                <span class=" arrow"></span>Joinville Real State Network's App. Search for house, apartments and office in South Brazil. Ver mais...
               </div>
-            </div>
-          </div>
-
-          <p class="d-flex justify-content-around mt-4">
-            <a class="btn " data-bs-toggle="collapse" href="#multiCollapseExample3" role="button" aria-expanded="false" aria-controls="multiCollapseExample3"><img class="img-port" src="img/rede-imobiliaria.jpg" width="120" height="120" title="REDE SÃO JOSÉ" class="thumb-client" /></a>
-            <button class="btn " type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample4" aria-expanded="false" aria-controls="multiCollapseExample4"><img src="img/ducati.jpg" class="img-port" width="120" height="120" title="Ducati" class="thumb-client" /></button>
-
-          </p>
-          <div class="row">
-            <div class="col">
-              <div class="collapse multi-collapse" id="multiCollapseExample3">
-                <div class="card card-body">
-                  Sabendo do importante desempenho da nossa cidade no cenário regional, estadual e nacional, a
-                  REDE SÃO JOSÉ trabalha com o objetivo de prestar serviços de qualidade.
-                  <button onclick="location.href='httptunes.apple.com/br/app/rede-imobiliaria-sao-jose/id486959575?mt=8&ign-mpt=uo%3D4'" class="btn btn-outline-success mt-3">Saber mais</button>
-                </div>
+            </a>
+              <img src="img/imoveis-joinville.jpg" width="120" height="120" alt="Joinville Real State Network's" title="Joinville Real State Network's" />
+          </li>
+          <li class="mb-3 px-2 mt-5 me-1">
+            <a href="https://itunes.apple.com/br/app/rede-imobiliaria-sao-jose/id486959575?mt=8&ign-mpt=uo%3D4" target="_blank" >
+              <div class="member-history">
+                <span class=" arrow"></span> Sabendo do importante desempenho da nossa cidade no cenário regional, estadual e nacional, a REDE SÃO JOSÉ trabalha com o objetivo de prestar serviços de qualidade. Ver mais...
               </div>
-            </div>
-            <div class="col">
-              <div class="collapse multi-collapse" id="multiCollapseExample4">
-                <div class="card card-body">
-                  A Ducati Estratégias Imobiliárias é uma empresa focada na gestão e desenvolvimento de
-                  estratégias para a realização de negócios imobiliários.
-                  <button onclick="location.href='itunes.apple.com/us/app/ducati-imobiliaria/id471304059?mt=8'" class="btn btn-outline-success mt-3">Saber mais</button>
-                </div>
+            </a>
+            <img src="img/rede-imobiliaria.jpg" width="120" height="120" alt="REDE SÃO JOSÉ" title="REDE SÃO JOSÉ" />
+          </li>
+          <li class="mb-3 px-2 mt-5 me-1">
+            <a href="https://itunes.apple.com/us/app/ducati-imobiliaria/id471304059?mt=8" target="_blank">
+              <div class="member-history">
+                <span class=" arrow"></span>A Ducati Estratégias Imobiliárias é uma empresa focada na gestão e desenvolvimento de estratégias para a realização de negócios imobiliários. Ver mais...
               </div>
-            </div>
-          </div>
-        </div>
+            </a>
+            <img src="img/ducati.jpg" width="120" height="120" alt="Ducati Estratégias Imobiliárias" title="Ducati Estratégias Imobiliárias" />
+          </li>
+        </ul>
       </div>
+
+
+
     </div>
   </div>
 </div>
+
+<hr style="opacity: 0.1;"/>

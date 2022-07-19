@@ -266,7 +266,7 @@ header .main-menu li a:hover {
 	background-color: #FF7E14;
 	color: #FFF !important;
 	border-radius: 3px;
-	padding: 4px;
+	padding: 5px;
 	display: inline-block;
 }
 
@@ -275,6 +275,7 @@ header .main-menu li a:hover {
 .f-final{
 	color: #666;
     font-size: 14px ;
+	font-weight: 600;
 	text-shadow: 0 1px 0 #fff;
 	font-family:'Helvetica Neue', Arial ;
 }
@@ -370,6 +371,76 @@ footer .download-presentation span {
 }
 /* HOME PAGE
 *************/
+.page-home,.page-about .page-headline p{
+	font-size: 15px;
+	line-height: 24px;
+	font-weight: 600;
+	color: #666;
+	font-family: 'Helvetica Neue', Arial;
+}
+
+.page-home .resp-sec{
+	/* flex-wrap: wrap; */
+	display: flex;
+}
+
+.page-home .members ul li {
+	float: left;
+	height: 80px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	/* width: 250px; */
+	
+}
+
+.page-home li .member-history{
+	background-color: #FF7E14;
+	bottom: 90px;
+	z-index: 2;
+	color: #FFF;
+	font-weight: 600;
+	display: none;
+	font-size: 13px;
+	/* left: -30px; */
+	padding: 15px 15px;
+	position:absolute;
+	width: 250px;
+	cursor: pointer !important;
+}
+.page-home li .member-history .arrow {
+	background: url('../img/sprite.png') no-repeat 0 -352px;
+	color: #727272ed ;
+    bottom: -14px;
+    display: block;
+    left: 60px;
+    font-size: 1.25rem;
+    height: 14px;
+    position: absolute;
+	width: 14px;
+}
+
+.page-home .linkc{
+	color: #000000ed;
+	font-weight: 600;
+}
+
+.page-home li:hover .member-history {
+	display:block;
+}
+
+.carousel-control-prev-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23666' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+   }
+   
+   .carousel-control-next-icon {
+	 background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23666' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+   }
+
+.page-home .ps-md-5{
+	padding-left: 4rem!important;
+}
 .page-home .content {
 	background-color: #FFF;
 	position: relative;
@@ -382,7 +453,7 @@ footer .download-presentation span {
 	text-align: center;
 }
 .page-home .content p {
-	font-size: 16px;
+	font-size: 17px;
 	margin: 5px auto 10px auto;
 	text-align: center;
 }
@@ -592,7 +663,7 @@ transition: all 0.2s ease-out;
 	box-shadow: 0px 0px 3px #666;
   width:120px}
 
-.page-home .btn img{
+.page-home li img{
 	box-shadow: 0px 0px 3px #666;
 }
 
@@ -762,32 +833,6 @@ transition: all 0.2s ease-out;
 	
 }
 
-.page-home li .member-history{
-	background-color: #FF7E14;
-	bottom: 300px;
-	color: #FFF;
-	display: none;
-	font-size: 13px;
-	/* left: -30px; */
-	padding: 20px 15px;
-	position:absolute;
-	width: 250px;
-	cursor: pointer !important;
-}
-.page-home li .member-history .arrow {
-	background: url('../img/sprite.png') no-repeat 0 -352px;
-	bottom: -7px;
-	display: block;
-	left: 60px;
-	height: 7px;
-	position: absolute;
-	width: 14px;
-}
-
-.page-home li:hover .member-history {
-	display:block;
-}
-
 .page-about .members ul li .member-history {
 	background-color: #FF7E14;
 	bottom: 96px;
@@ -874,6 +919,14 @@ transition: all 0.2s ease-out;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+	}
+	.page-home .resp-sec{
+		display: contents;
+	}
+
+	.page-products .page-headline {
+		margin-bottom: 60px !important;
+		padding: 25px 25px 0 25px !important;
 	}
 }
 @media (max-width: 1199px) {
@@ -1034,6 +1087,7 @@ transition: all 0.2s ease-out;
 
 .p-subtitle-product{
 	color: #FF7F24;
+	font-weight: 600;
 	font-family: 'Helvetica Neue', Arial;
     font-size: 16px;
     line-height: 27px;
@@ -1050,6 +1104,7 @@ transition: all 0.2s ease-out;
   }
   .p-product-title{
 	font-size: 16px;
+	font-weight: 600;
     color: #666;
     font-family: 'Helvetica Neue', Arial;
   }
@@ -1647,6 +1702,7 @@ transition: all 0.2s ease-out;
 }
 .page-ishowroom .products-section p {
 	font-size: 16px;
+	font-weight: 600;
 	color: #666;
 	margin: 12px auto 0 auto;
 	text-align: center;

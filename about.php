@@ -14,7 +14,7 @@
     <h3>Nós trabalhamos para tornar grandes idéias realidade</h3>
     <ul class="clearfix px-5 resp-sec ">
       <li class="mb-3 me-1">
-        <div class="member-history" style="height: 185px">
+        <div class="member-history">
           <span class="arrow"></span>Formado em Sistemas de
           Informação, possui amplo background técnico e de gestão de projetos. Responsável pelo design,
           planejamento e execução do desenvolvimento dos produtos, dedica-se em fazer uso das mais modernas
