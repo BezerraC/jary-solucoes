@@ -122,8 +122,8 @@ $body_class = $body_class . $product_class;
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
 
 	<link rel="shortcut icon" href="/favicon.ico">
-  <link type="text/css" href="/css/style.css" />
-  <link type="text/css" href="/css/owera.css" />
+  <link href="/css/style.css" />
+  <link href="/css/owera.css" />
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
