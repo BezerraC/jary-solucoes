@@ -18,6 +18,10 @@
    RewriteCond %{HTTP_HOST} ^www\.bomdelata\.com.br$ [NC]
    RewriteRule ^(.*)$ http://bomdelata.com.br/$1 [L,R=301]
 
+   AddType text/css .css
+   AddType text/javascript .js
+   RewriteCond %{REQUEST_URI} !(\.css|\.js|\.png|\.jpg|\.gif|robots\.txt)$ [NC]
+
   # Modify the RewriteBase if you are using Drupal in a subdirectory or in a
   # VirtualDocumentRoot and the rewrite rules are not working properly.
   # For example if your site is at http://example.com/drupal uncomment and
