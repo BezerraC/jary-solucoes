@@ -111,7 +111,7 @@ $body_class = $body_class . $product_class;
 
   <!-- Use the .htaccess and remove these lines to avoid edge case issues.
        More info: h5bp.com/i/378 -->
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> -->
 
   <title><?php print $page_title; ?> Owera</title>
   <meta name="description" content="">

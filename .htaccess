@@ -1,7 +1,6 @@
 # Various rewrite rules.
 <IfModule mod_rewrite.c>
   RewriteEngine on
-  SetEnvIf X-Forwarded-Proto "https" HTTPS=on
   AddType application/x-httpd-php			phtml pht php js html css
   AddType text/css .css
   AddType text/js .js
@@ -18,8 +17,8 @@
   # To redirect all users to access the site WITHOUT the 'www.' prefix,
   # (http://www.example.com/... will be redirected to http://example.com/...)
   # uncomment and adapt the following:
-   RewriteCond %{HTTPS_HOST} ^www\.bomdelata\.com.br$ [NC]
-   RewriteRule ^(.*)$ https://bomdelata.com.br/$1 [L,R=301]
+   RewriteCond %{HTTP_HOST} ^www\.bomdelata\.com.br$ [NC]
+   RewriteRule ^(.*)$ http://bomdelata.com.br/$1 [L,R=301]
 
   # Modify the RewriteBase if you are using Drupal in a subdirectory or in a
   # VirtualDocumentRoot and the rewrite rules are not working properly.
