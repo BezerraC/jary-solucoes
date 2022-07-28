@@ -1,6 +1,7 @@
 # Various rewrite rules.
 <IfModule mod_rewrite.c>
   RewriteEngine on
+  SetEnvIf X-Forwarded-Proto "https" HTTPS=on
 
   # If your site can be accessed both with and without the 'www.' prefix, you
   # can use one of the following settings to redirect users to your preferred
@@ -15,8 +16,8 @@
   # To redirect all users to access the site WITHOUT the 'www.' prefix,
   # (http://www.example.com/... will be redirected to http://example.com/...)
   # uncomment and adapt the following:
-   RewriteCond %{HTTP_HOST} ^www\.bomdelata\.com.br$ [NC]
-   RewriteRule ^(.*)$ http://bomdelata.com.br/$1 [L,R=301]
+   RewriteCond %{HTTPS_HOST} ^www\.bomdelata\.com.br$ [NC]
+   RewriteRule ^(.*)$ https://bomdelata.com.br/$1 [L,R=301]
 
   # Modify the RewriteBase if you are using Drupal in a subdirectory or in a
   # VirtualDocumentRoot and the rewrite rules are not working properly.
