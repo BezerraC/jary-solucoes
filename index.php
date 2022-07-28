@@ -123,8 +123,8 @@ $body_class = $body_class . $product_class;
 
 	<link rel="shortcut icon" href="/favicon.ico">
   
-  <link type="text/css" rel="stylesheet" href="/style.css" />
-  <link type="text/css" rel="stylesheet" href="/owera.css" />
+  <link type="text/css" rel="stylesheet" href="/css/style.css" />
+  <link type="text/css" rel="stylesheet" href="/css/owera.css" />
   
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
