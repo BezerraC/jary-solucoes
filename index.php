@@ -3,7 +3,6 @@
 // PHP code sample, could be accomplished with any language that can set cookies
 // set the default language translation to Portugese
 setcookie('googtrans', '/pt/en');
-
 /**
  * @file index.php
  * index file

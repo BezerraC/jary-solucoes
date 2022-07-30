@@ -1,9 +1,6 @@
 # Various rewrite rules.
 <IfModule mod_rewrite.c>
   RewriteEngine on
-  AddType application/x-httpd-php			phtml pht php js html css
-  AddType text/css .css
-  AddType text/js .js
   # If your site can be accessed both with and without the 'www.' prefix, you
   # can use one of the following settings to redirect users to your preferred
   # URL, either WITH or WITHOUT the 'www.' prefix. Choose ONLY one option:
@@ -35,4 +32,13 @@
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteCond %{REQUEST_URI} !=\favicon.ico
   RewriteRule ^(.*)$ index.php?q=$1 [L,QSA]
+</IfModule>
+
+# MIME TYPES
+<IfModule mod_mime.c>
+  DefaultLanguage pt
+  AddLanguage pt-BR .html .css .js
+  AddCharset utf-8 .html .css .js .xml .json .rss .atom
+  AddType text/css .css
+  AddType text/javascript .js
 </IfModule>
