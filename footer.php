@@ -16,6 +16,6 @@
     <li class="ms-4 f-final">
       <a class="footer-new-atributes" title="E-mail" href="mailto:rodrigo@owera.us"><i class="me-1 text-muted fa fa-envelope"></i> Email</a>
     </li>
-    <li class="ms-4 f-final"><a class="footer-new-atributes" href="#"><i class="me-1 text-muted fa fa-mobile "></i> +55 (96) 98402.4444</a></li>
+    <li class="ms-4 f-final"><a class="footer-new-atributes" href="tel:+5596984024444"><i class="me-1 text-muted fa fa-mobile "></i> +55 (96) 98402.4444</a></li>
   </ul>
 </div>
