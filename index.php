@@ -1,3 +1,56 @@
+<?php
+// PHP code sample, could be accomplished with any language that can set cookies
+// set the default language translation to Portugese
+setcookie('googtrans', '/pt');
+/**
+ * @file index.php
+ * index file
+ *
+ * It gets the current request from the URL and delivers the proper page
+ */
+    if (isset($_SERVER['REQUEST_URI']))
+        $request = $_SERVER['REQUEST_URI'];
+    else
+        $request = '/home';
+
+    $page_file = NULL;
+    $product_class = '';
+
+    switch($request) {
+        case '/home':
+        case '/':
+        case NULL:
+            $page_file = 'home.php';
+            $page_title = '';
+        break;
+        case '/sobre-nos':
+            $page_file = 'about.php';
+	        $page_title = 'Sobre nós |';
+        break;
+        case '/servicos':
+            $page_file = 'services.php';
+	        $page_title = 'Serviços |';
+        break;
+        case '/produtos':
+            $page_file = 'products.php';
+    	    $page_title = 'Produtos |';
+        break;
+        case '/produtos/babynotes':
+            $page_file = 'babynotes.php';
+            $product_class = ' page-product';
+        	$page_title = 'BabyNotes |';
+        break;
+        case '/contato':
+            $page_file = 'contact.php';
+        	$page_title = 'Contato |';
+        break;
+        default:
+            $page_file = '404.html';
+	        $page_title = 'Página não encontrada |';
+        break;
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
