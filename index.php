@@ -132,7 +132,7 @@ $body_class = $body_class . $product_class;
 
     /* FONTS
     ************/
-    @import url(http://fonts.googleapis.com/css?family=Cabin+Condensed:400,500,600,700);
+    @import url(https://fonts.googleapis.com/css?family=Cabin+Condensed:400,500,600,700);
     /* CLEARFIX
     ************/
     body{
