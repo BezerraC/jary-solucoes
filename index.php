@@ -27,10 +27,6 @@ setcookie('googtrans', '/pt');
             $page_file = 'about.php';
 	        $page_title = 'Sobre nós |';
         break;
-        case '/servicos':
-            $page_file = 'services.php';
-	        $page_title = 'Serviços |';
-        break;
         case '/produtos':
             $page_file = 'products.php';
     	    $page_title = 'Produtos |';
@@ -70,7 +66,7 @@ setcookie('googtrans', '/pt');
         <div role="main" id="main">
             <?php include($page_file); ?>
         </div>
-        <footer class="clearfix shadow-white">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
             <?php include('footer.php'); ?>
         </footer>
     </div>
