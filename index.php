@@ -64,10 +64,10 @@ setcookie('googtrans', '/pt');
         <header>
             <?php include('header.php'); ?>
         </header>
-        <div role="main" id="main">
+        <div role="main" id="main" class="container">
             <?php include($page_file); ?>
         </div>
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <footer class="container d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
             <?php include('footer.php'); ?>
         </footer>
     </div>
