@@ -60,7 +60,7 @@ setcookie('googtrans', '/pt');
     <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
 </head>
 <body>
-    <div class="container">
+    <div class="">
         <header>
             <?php include('header.php'); ?>
         </header>
