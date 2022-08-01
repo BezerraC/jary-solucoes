@@ -2,7 +2,6 @@
 
 // PHP code sample, could be accomplished with any language that can set cookies
 // set the default language translation to Portugese
-header('Content-Type: application/x-httpd-php');
 setcookie('googtrans', '/pt/en');
 /**
  * @file index.php
