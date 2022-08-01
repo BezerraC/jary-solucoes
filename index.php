@@ -31,8 +31,8 @@ setcookie('googtrans', '/pt');
             $page_file = 'products.php';
     	    $page_title = 'Produtos |';
         break;
-        case '/produtos/babynotes':
-            $page_file = 'babynotes.php';
+        case '/produtos/01':
+            $page_file = 'produto01.php';
             $product_class = ' page-product';
         	$page_title = 'BabyNotes |';
         break;
@@ -53,7 +53,8 @@ setcookie('googtrans', '/pt');
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jary Soluções Sustentáveis</title>
+    <title><?php print $page_title; ?> Jary Soluções Sustentáveis</title>
+    <meta name="description" content="">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <link href="/css/style.css" rel="stylesheet">
@@ -64,10 +65,10 @@ setcookie('googtrans', '/pt');
         <header>
             <?php include('header.php'); ?>
         </header>
-        <div role="main" id="main" class="container">
+        <div role="main" id="main" class="container mb-5">
             <?php include($page_file); ?>
         </div>
-        <footer class="container d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <footer class="container d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top mb-5">
             <?php include('footer.php'); ?>
         </footer>
     </div>
