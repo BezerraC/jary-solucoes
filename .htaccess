@@ -35,5 +35,5 @@
 </IfModule>
 
  <IfModule mod_headers.c>
-   Header set Access-Control-Allow-Origin "owera.com"
+   Header set Access-Control-Allow-Origin "https://owera.com"
  </IfModule>
