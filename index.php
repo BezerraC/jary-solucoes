@@ -122,8 +122,8 @@ $body_class = $body_class . $product_class;
 
 	<link rel="shortcut icon" href="/favicon.ico">
   
-  <link rel="stylesheet" href="https://owera.com/css/style.css" />
-  <link rel="stylesheet" href="https://owera.com/css/owera.css" />
+  <link rel="stylesheet" href="https://www.owera.com/css/style.css" />
+  <link rel="stylesheet" href="https://www.owera.com/css/owera.css" />
   
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
