@@ -33,3 +33,7 @@
   RewriteCond %{REQUEST_URI} !=\favicon.ico
   RewriteRule ^(.*)$ index.php?q=$1 [L,QSA]
 </IfModule>
+
+AddHandler application/x-httpd-php .html .php .phtml
+AddType text/css .css
+AddType text/javascript .js
