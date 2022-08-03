@@ -106,7 +106,7 @@ $body_class = $body_class . $product_class;
 <!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-  <meta http-equiv="Content-Type" content="text/html"; charset="utf-8">
+ 
 
   <!-- Use the .htaccess and remove these lines to avoid edge case issues.
        More info: h5bp.com/i/378 -->
@@ -122,8 +122,8 @@ $body_class = $body_class . $product_class;
 
 	<link rel="shortcut icon" href="/favicon.ico">
   
-  <link rel="stylesheet" type="text/css" href="/css/style.css" />
-  <link rel="stylesheet" type="text/css" href="/css/owera.css" />
+  <link type="text/css" href="/css/style.css" />
+  <link type="text/css" href="/css/owera.css" />
   <style type="text/css">
     /* @override 
       http://zee.com.br/extranet/owera/css/owera.css
@@ -2228,6 +2228,8 @@ $body_class = $body_class . $product_class;
     }
 
   </style>
+
+  <meta charset="utf-8">
   
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
