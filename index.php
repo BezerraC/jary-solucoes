@@ -98,7 +98,7 @@ $body_class = ($page_file != NULL) ? ('page-' . str_replace('.php', '', $page_fi
 $body_class = ($body_class == 'page-faq-page') ? 'page-faq' : $body_class; // Corrige a classe da página FAQ
 $body_class = $body_class . $product_class;
 ?>
-<!-- <!DOCTYPE html> -->
+<!DOCTYPE html>
 <!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
