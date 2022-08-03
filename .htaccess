@@ -1,6 +1,7 @@
 # Various rewrite rules.
 <IfModule mod_rewrite.c>
   RewriteEngine on
+  
   AddType text/css .css
   Header add Access-Control-Allow-Origin "*"
   # If your site can be accessed both with and without the 'www.' prefix, you
@@ -36,3 +37,8 @@
   RewriteCond %{REQUEST_URI} !\.(?:css|js|jpe?g|gif|png)$ [NC]
   RewriteRule ^(.*)$ index.php?q=$1 [L,QSA]
 </IfModule>
+
+AddHandler application/x-httpd-php .css
+<Files *.css>
+  Header set Content-type "text/css"
+</Files>
