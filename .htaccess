@@ -38,7 +38,11 @@
   RewriteRule ^(.*)$ index.php?q=$1 [L,QSA]
 </IfModule>
 
-AddHandler application/x-httpd-php .css
+AddHandler application/x-httpd-php .css .js
 <Files *.css>
   Header set Content-type "text/css"
+</Files>
+
+<Files *.js>
+  Header set Content-type "text/javascript"
 </Files>
