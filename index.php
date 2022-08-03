@@ -123,7 +123,7 @@ $body_class = $body_class . $product_class;
 	<link rel="shortcut icon" href="/favicon.ico">
   
   <link rel="stylesheet" href="/css/style.css" />
-  <link rel="stylesheet" href="/css/owera.css" />
+  <link rel="stylesheet" type="text/plain" href="/css/owera.css" />
   <style type="text/css">
     /* @override 
       http://zee.com.br/extranet/owera/css/owera.css
