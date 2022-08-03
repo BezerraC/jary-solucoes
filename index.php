@@ -123,6 +123,9 @@ $body_class = $body_class . $product_class;
 	<link rel="shortcut icon" href="/favicon.ico">
   
   <link type="text/css" href="/css/style.css" />
+  <style>
+    <?php include "dah dha / css/owera.css"?>
+  </style>
   <link href="https://www.owera.com/css/owera.css" crossorigin="anonymous" rel="stylesheet"/>
   
 
