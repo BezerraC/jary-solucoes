@@ -123,7 +123,7 @@ $body_class = $body_class . $product_class;
 	<link rel="shortcut icon" href="/favicon.ico">
   
   <link type="text/css" href="/css/style.css" />
-  <link type="text/css" href="https://www.owera.com/css/owera.css" crossorigin="anonymous"/>
+  <link href="https://www.owera.com/css/owera.css" crossorigin="anonymous" rel="stylesheet"/>
   
 
   <meta charset="utf-8">
