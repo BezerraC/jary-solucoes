@@ -145,7 +145,7 @@ $body_class = $body_class . $product_class;
   
 	<meta name="google-translate-customization" content="b5c46b033f41c2ec-ca19d4db5e4c4015-g35e74bd70b416c20-10"></meta>
 </head>
-<body class="<?php print $body_class; ?>">
+<body class="<?php print $body_class; ?>" style="background-color: #F4F4FE;">
   <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
        chromium.org/developers/how-tos/chrome-frame-getting-started -->
   <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
