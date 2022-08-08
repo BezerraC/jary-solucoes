@@ -1,9 +1,9 @@
 
     <div class="col-md-4 d-flex align-items-center">
       <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-        <img src="/img/logo_footer.png" width="115">
+        <img src="/img/logo_footer.png" width="125">
       </a>
-      <span class="text-muted">© 2022</span>
+      <span class="text-muted">© 2022 - All right reserved</span>
     </div>
 
     <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">

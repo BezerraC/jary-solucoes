@@ -38,11 +38,22 @@ body{
     color: #00554C !important;
 }
 
+li a:hover {
+    color: #00554C !important;
+}
+
 .btn-success{
     padding: 8px 13px 8px 13px;
     background-color: #00554C;
     border: none;
     border-radius: 6px;
+}
+
+.btn-success:hover{
+    color: #fff !important;
+}
+.btn-outline-success:hover{
+    color: #fff !important;
 }
 
 .btn-outline-success{
@@ -56,6 +67,38 @@ body{
 .prod .col img{
     border-radius: 15px;
 }
+
+.carousel-item {
+    border-radius: 15px !important;
+}
+
+.carousel-item .active {
+    border-radius: 15px !important;
+}
+
+/* Nosso Time */
+.img-thumbnail {
+    padding: .25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    max-width: 100%;
+    height: auto;
+}
+
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+}
+
 
 /* ERROR 404 */
 .page_404{
