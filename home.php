@@ -1,6 +1,6 @@
 <section class="mt-5">
     <div class="row px-4">
-        <div class="col-md">
+        <div class="col-md d-flex flex-column justify-content-center align-items-flex-start">
             <h2 class="title">Jary Soluções Sustentáveis</h2>
             <p class="subtitle">A empresa Jary Soluções Sustentáveis vem ajudar a comunidade em geral, na busca por novos produtos ambientais.</p>
             <li class="nav-item d-flex align-items-center icon">
