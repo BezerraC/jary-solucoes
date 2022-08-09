@@ -12,13 +12,13 @@
           <a class="nav-link" aria-current="page" href="/home" title="Home">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/sobre-nos" title="Sobre Nós">Sobre nós</a>
+          <a class="nav-link" href="#about" title="Sobre Nós">Sobre nós</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/produtos" title="Produtos">Produto</a>
+          <a class="nav-link" href="#product" title="Produtos">Produto</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/contato" title="Contato">Contato</a>
+          <a class="nav-link" href="#contact" title="Contato">Contato</a>
         </li>
         <li class="nav-item d-flex align-items-center icon">
           <a class="text-muted ms-0 ms-sm-2" href="https://www.instagram.com/jarisolucoessustentaveis/" target="_blank"><i class="uil uil-instagram"></i></a>

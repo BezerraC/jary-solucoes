@@ -23,23 +23,6 @@ setcookie('googtrans', '/pt');
             $page_file = 'home.php';
             $page_title = '';
         break;
-        case '/sobre-nos':
-            $page_file = 'about.php';
-	        $page_title = 'Sobre nós |';
-        break;
-        case '/produtos':
-            $page_file = 'products.php';
-    	    $page_title = 'Produtos |';
-        break;
-        case '/produtos/01':
-            $page_file = 'produto01.php';
-            $product_class = ' page-product';
-        	$page_title = 'BabyNotes |';
-        break;
-        case '/contato':
-            $page_file = 'contact.php';
-        	$page_title = 'Contato |';
-        break;
         default:
             $page_file = '404.html';
 	        $page_title = 'Página não encontrada |';

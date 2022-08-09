@@ -4,8 +4,8 @@
             <h2 class="title">Jary Soluções Sustentáveis</h2>
             <p class="subtitle">A empresa Jary Soluções Sustentáveis vem ajudar a comunidade em geral, na busca por novos produtos ambientais.</p>
             <li class="nav-item d-flex align-items-center icon">
-                <a type="button" class="btn btn-success">Sobre Nós</a>
-                <a type="button" class="ms-4 btn btn-outline-success">Contato</a>
+                <a type="button" href="#about" class="btn btn-success">Sobre Nós</a>
+                <a type="button" href="#contact" class="ms-4 btn btn-outline-success">Contato</a>
             </li>
         </div>
         <div class="col mt-5 mt-sm-0 d-flex justify-content-center">
@@ -14,21 +14,28 @@
     </div>
 </section>
 
-<section class="px-4 margin_sec">
-    <div class="text-center px-0 px-sm-4">
-        <h2 class="title">Sobre Nós</h2>
-        <p class="subtitle">Somos uma empresa focada na elaboração de produtos de base ambiental que tem como principal laboratório a Floresta Amazônica. Estamos localizados no extremo sul do estado do Amapá, no município de Laranjal do Jari. Atualmente estamos produzindo uma ração alternativa para peixes, com alto valor nutricional e de baixo custo de aquisição para os piscicultores. </p>
-    </div>   
+<section class="px-4 margin_sec" id="about">
+    <h2 class="title text-center">Sobre Nós</h2>
+    <div class="row px-0 px-sm-4 mt-4">
+        <div class="col-sm d-inline-flex">
+            <div class="d-flex justify-content-center align-items-center flex-sm-row flex-column">
+            <p class="subtitle pe-0 pe-sm-5 w-50">Somos uma empresa focada na elaboração de produtos de base ambiental que tem como principal laboratório a Floresta Amazônica. Estamos localizados no extremo sul do estado do Amapá, no município de Laranjal do Jari. Atualmente estamos produzindo uma ração alternativa para peixes, com alto valor nutricional e de baixo custo de aquisição para os piscicultores. <br><br><br> Nós não vendemos apenas um produto, vendemos uma história.</p>  
+            
+            <img src="/img/logo_square.png" width="300">
+            </div>
+        </div>
+    </div>
+    
 </section>
 
-<section class="px-4 margin_sec">
+<section class="px-4 margin_sec" id="product">
     <div class="text-center">
         <h2 class="title">O Produto</h2>
         <p class="subtitle">Entregamos ao piscicultor uma ração de qualidade e com a originalidade amazônica.</p>
     </div>
     <div class="mt-5"></div>
-    <div class="row px-0 px-sm-5 prod">
-            <div class="col d-inline-flex">
+    <div class="row px-0 px-sm-5 prod ">
+            <div class="col d-inline-flex flex-sm-row flex-column">
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -55,7 +62,7 @@
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
-                <p class="subtitle ms-0 ms-sm-5">A Ração Vale do Jari, nasceu para atender as necessidades do pequeno piscicultor do Vale do Jari em adquirir uma ração de alto valor nutricional e que seja a cara da Amazônia. Assim, estamos preparando uma ração alternativa com base na cadeia produtiva dos frutos e frutas amazônicas que são utilizados in natura na alimentação dos peixes. Nosso processo passou por rigorosas análises físicas, químicas e microbiológicas para que o produto final esteja de acordo com as especificações necessárias para uma alimentação saudável para os peixes.
+                <p class="subtitle ms-0 ms-sm-5 mt-4 mt-sm-0">A Ração Vale do Jari, nasceu para atender as necessidades do pequeno piscicultor do Vale do Jari em adquirir uma ração de alto valor nutricional e que seja a cara da Amazônia. Assim, estamos preparando uma ração alternativa com base na cadeia produtiva dos frutos e frutas amazônicas que são utilizados in natura na alimentação dos peixes. Nosso processo passou por rigorosas análises físicas, químicas e microbiológicas para que o produto final esteja de acordo com as especificações necessárias para uma alimentação saudável para os peixes.
                  <br><br>Um dos componentes da Ração Vale do Jari é o buriti, Mauritia flexuosa L. Esse fruto é muito utilizado nas regiões da Amazônia e em algumas áreas do cerrado brasileiro. Essa espécie possui uma grande variedade de nutrientes, proteínas, ácidos graxos e vitaminas como A, B, C. Observa-se ainda que este fruto é bastante utilizado pelas comunidades tradicionais locais, apresentam assim um enorme potencial biotecnológico. Os demais componentes da ração também fazem parte da cadeia amazônica.
                 </p>
             </div>
@@ -113,7 +120,7 @@
     </div>
 </section>
 
-<section class="px-4 margin_sec">
+<section class="px-4 margin_sec" id="contact">
     <div class="text-center">
         <h2 class="title">Contato</h2>
         <p class="subtitle">Fique a vontade para entrar em contato conosco</p>
