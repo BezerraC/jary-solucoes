@@ -1,48 +1,35 @@
-<?php
+<?php  
+$nome = $_GET['nome'];
+$email = $_GET['email'];
+$subject = $_GET['phone'];
+$mensagem = $_GET['message'];
 
-// Replace this with your own email address
-$to = 'cbezerraneto@gmail.com';
+$body = <<<HTML
+    <h4>Contato | Jary Soluções</h4>
+    <p>De: $nome / $email</p>
+    <h4>Mensagem</h4>
+    <p>$mensagem</p>
+HTML;
 
-function url(){
-  return sprintf(
-    "%s://%s",
-    isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off' ? 'https' : 'http',
-    $_SERVER['SERVER_NAME']
-  );
+$headers = "MIME-Version: 1.0 \r\n";
+$headers.= "Content-type: text/html; charset=utf-8 \r\n";
+$headers.= "From: Jary Soluções | $nome <$email> \r\n";
+$headers.= "To: jarysolucoes.com \r\n";
+// $headers.= "Cc: cbezerraneto@gmail.com \r\n";
+// $headers.= "Bcc: cbezerraneto@gmail.com \r\n";
+
+$rta = mail('cbezerraneto@gmail.com',
+"Assunto: $subject", $body, $headers );
+
+if (mail($nome ,$subject, $body, $headers)){
+  echo ("<script>
+        window.alert('Email enviado com sucesso');
+        window.history.back();
+    </script>");
+}else {
+  echo ("<script>
+        window.alert('Falha ao enviar o Email')
+        window.history.back();
+    </script>");
 }
-
-if($_POST) {
-
-   $name = trim(stripslashes($_POST['nome']));
-   $email = trim(stripslashes($_POST['email']));
-   $subject = trim(stripslashes($_POST['phone']));
-   $contact_message = trim(stripslashes($_POST['message']));
-
-   
-	if ($subject == '') { $subject = "Contato | Jary Soluções"; }
-
-   // Set Message
-   $message .= "Email de: " . $name . "<br />";
-	 $message .= "Email: " . $email . "<br />";
-   $message .= "Mensagem: <br />";
-   $message .= nl2br($contact_message);
-   $message .= "<br /> ----- <br /> Este email foi enviado do site " . url() . ". <br />";
-
-   // Set From: header
-   $from =  $name . " <" . $email . ">";
-
-   // Email Headers
-	$headers = "From: " . $from . "\r\n";
-	$headers .= "Reply-To: ". $email . "\r\n";
- 	$headers .= "MIME-Version: 1.0\r\n";
-	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
-
-   ini_set("sendmail_from", $to); // for windows server
-   $mail = mail($to, $subject, $message, $headers);
-
-	if ($mail) { echo "Email enviado com sucesso! Obrigado."; }
-   else { echo "Algo não saiu como o esperado, tente novamente."; }
-
-}
-
 ?>
