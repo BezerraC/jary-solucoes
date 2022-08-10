@@ -1,7 +1,7 @@
 # Various rewrite rules.
 <IfModule mod_rewrite.c>
   RewriteEngine on
-  
+  RewriteRUle ^https://jary-solucoes.herokuapp.com/?$ /jarysolucoes/mask
   AddType text/css .css
   Header add Access-Control-Allow-Origin "*"
   # If your site can be accessed both with and without the 'www.' prefix, you
