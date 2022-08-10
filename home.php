@@ -147,7 +147,7 @@
                 </div>
             </div>
             <div class="col mt-5 mt-sm-0">
-            <form action="/envia.php" method="POST" target="_blank">
+            <form action="/envia.php" method="POST" >
 
                 <div class="input-group mb-3">
                     <span class="input-group-text" id="basic-addon1"><i class="fa fa-user"></i></span>
