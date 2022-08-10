@@ -19,9 +19,9 @@
     <div class="row px-0 px-sm-4 mt-4">
         <div class="col-sm d-inline-flex">
             <div class="d-flex justify-content-center align-items-center flex-sm-row flex-column">
-            <p class="subtitle pe-0 pe-sm-5 w-50">Somos uma empresa focada na elaboração de produtos de base ambiental que tem como principal laboratório a Floresta Amazônica. Estamos localizados no extremo sul do estado do Amapá, no município de Laranjal do Jari. Atualmente estamos produzindo uma ração alternativa para peixes, com alto valor nutricional e de baixo custo de aquisição para os piscicultores. <br><br><br> Nós não vendemos apenas um produto, vendemos uma história.</p>  
+            <p class="subtitle pe-0 pe-sm-5">Somos uma empresa focada na elaboração de produtos de base ambiental que tem como principal laboratório a Floresta Amazônica. Estamos localizados no extremo sul do estado do Amapá, no município de Laranjal do Jari. Atualmente estamos produzindo uma ração alternativa para peixes, com alto valor nutricional e de baixo custo de aquisição para os piscicultores. <br><br><br> Nós não vendemos apenas um produto, vendemos uma história.</p>  
             
-            <img src="/img/logo_square.png" width="300">
+            <img src="/img/logo_square.png" width="300" class="img-fluid">
             </div>
         </div>
     </div>
@@ -79,9 +79,10 @@
         <div class="row text-center d-flex justify-content-center">
         <!-- Team item-->
         <div class="col-xl-3 col-sm-6 mb-5">
-            <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-            <h5 class="mb-0">Antônio</h5><span class="small text-uppercase text-muted">COO</span>
-            <ul class="social mb-0 list-inline mt-3">
+            <div class="bg-white rounded shadow-sm py-5 px-4">
+                <!-- <img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm"> -->
+                <h5 class="mb-0">Antônio</h5><span class="small text-uppercase text-muted">COO</span>
+                <ul class="social mb-0 list-inline mt-3">
                 <li class="list-inline-item"><a href="#" class="social-link text-decoration-none"><i class="fa fa-facebook-f"></i></a></li>
                 <li class="list-inline-item"><a href="#" class="social-link text-decoration-none"><i class="fa fa-instagram"></i></a></li>
                 <li class="list-inline-item"><a href="#" class="social-link text-decoration-none"><i class="fa fa-linkedin"></i></a></li>
@@ -92,9 +93,10 @@
 
         <!-- Team item-->
         <div class="col-xl-3 col-sm-6 mb-5">
-            <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://bootdey.com/img/Content/avatar/avatar6.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-            <h5 class="mb-0">Mateus Maia</h5><span class="small text-uppercase text-muted">CEO - Founder</span>
-            <ul class="social mb-0 list-inline mt-3">
+            <div class="bg-white rounded shadow-sm py-5 px-4">
+                <!-- <img src="https://bootdey.com/img/Content/avatar/avatar6.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm"> -->
+                <h5 class="mb-0">Mateus Maia</h5><span class="small text-uppercase text-muted">CEO - Founder</span>
+                <ul class="social mb-0 list-inline mt-3">
                 <li class="list-inline-item"><a href="#" class="social-link text-decoration-none"><i class="fa fa-facebook-f"></i></a></li>
                 <li class="list-inline-item"><a href="#" class="social-link text-decoration-none"><i class="fa fa-instagram"></i></a></li>
                 <li class="list-inline-item"><a href="#" class="social-link text-decoration-none"><i class="fa fa-linkedin"></i></a></li>
@@ -105,9 +107,10 @@
 
         <!-- Team item-->
         <div class="col-xl-3 col-sm-6 mb-5">
-            <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-            <h5 class="mb-0">Davi</h5><span class="small text-uppercase text-muted">CFO</span>
-            <ul class="social mb-0 list-inline mt-3 ">
+            <div class="bg-white rounded shadow-sm py-5 px-4">
+                <!-- <img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm"> -->
+                <h5 class="mb-0">Davi</h5><span class="small text-uppercase text-muted">CFO</span>
+                <ul class="social mb-0 list-inline mt-3 ">
                 <li class="list-inline-item"><a href="#" class="social-link text-decoration-none"><i class="fa fa-facebook-f"></i></a></li>
                 <li class="list-inline-item"><a href="#" class="social-link text-decoration-none"><i class="fa fa-instagram"></i></a></li>
                 <li class="list-inline-item"><a href="#" class="social-link text-decoration-none"><i class="fa fa-linkedin"></i></a></li>
@@ -124,5 +127,57 @@
     <div class="text-center">
         <h2 class="title">Contato</h2>
         <p class="subtitle">Fique a vontade para entrar em contato conosco</p>
+    </div>
+    <div class="container px-0 px-sm-5 mt-5">
+        <div class="row">
+            <div class="col-sm d-flex flex-column ">
+                <div class="d-inline-flex align-items-center p-c">
+                    <div class="bg-white rounded-circle shadow-sm py-2 px-3"><i class="fa fa-map-marker"></i></div>
+                    <p class="pt-3 px-3">Macapá - Amapá - Brasil</p>
+                </div>
+
+                <div class="d-inline-flex align-items-center p-c">
+                    <div class="bg-white rounded-circle shadow-sm py-2 px-3"><i class="fa fa-phone"></i></div>
+                    <p class="pt-3 px-3">(96) 99165-6639</p>
+                </div>
+
+                <div class="d-inline-flex align-items-center p-c">
+                    <div class="bg-white rounded-circle shadow-sm py-2 px-3"><i class="fa fa-envelope"></i></div>
+                    <p class="pt-3 px-3">jarisolucoessustentaveis@gmail.com</p>
+                </div>
+            </div>
+            <div class="col mt-5 mt-sm-0">
+            <form action="/envia.php" method="POST" target="_blank">
+
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1"><i class="fa fa-user"></i></span>
+                    <input name="nome" type="text" class="form-control" placeholder="Nome*" aria-label="Nome" aria-describedby="basic-addon1" required>
+                </div>
+
+                <div class="row">
+                <div class="col">
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1"><i class="fa fa-envelope"></i></span>
+                        <input name="email" type="email" class="form-control" placeholder="Email*" aria-label="Email" aria-describedby="basic-addon1" required>
+                    </div>
+                </div>
+                <div class="col">
+                <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1"><i class="fa fa-phone"></i></span>
+                        <input name="phone" type="tel" class="form-control" placeholder="Telefone" aria-label="Phone" aria-describedby="basic-addon1" >
+                    </div>
+                </div>
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" id="message" rows="7" placeholder="Escreva sua mensagem*" required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary float-right mt-3">
+                <i class="fa fa-paper-plane"></i> 
+                Enviar
+                </button>
+                </form>
+            </div>
+        </div>
     </div>
 </section>

@@ -31,15 +31,33 @@ body{
 }
 
 .icon{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 .icon i:hover{
     color: #00554C !important;
 }
 
+.rounded-circle i{
+    color: #00554C;
+}
+.p-c p {
+    color: #666;
+}
+.input-group-text{
+    background-color: #fff !important;
+}
+.input-group-text i{
+    color: #00554C;
+}
+
 li a:hover {
     color: #00554C !important;
+}
+
+.btn-primary {
+    background-color: #00554C !important;
+    border: none;
 }
 
 .btn-success{
@@ -134,3 +152,5 @@ li a:hover {
 .contant_box_404{
     margin-top: -76px;
 }
+
+/* Footer */

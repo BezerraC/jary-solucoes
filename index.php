@@ -1,13 +1,5 @@
 <?php
-// PHP code sample, could be accomplished with any language that can set cookies
-// set the default language translation to Portugese
 setcookie('googtrans', '/pt');
-/**
- * @file index.php
- * index file
- *
- * It gets the current request from the URL and delivers the proper page
- */
     if (isset($_SERVER['REQUEST_URI']))
         $request = $_SERVER['REQUEST_URI'];
     else
@@ -41,7 +33,6 @@ setcookie('googtrans', '/pt');
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- Icon Library -->
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
     <!-- CSS File -->
     <link href="/css/style.css" rel="stylesheet">
