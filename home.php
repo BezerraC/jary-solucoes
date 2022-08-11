@@ -1,4 +1,4 @@
-<section class="mt-5 px-4">
+<section class="margin_sec px-4">
     <div class="row px-0 px-sm-5">
         <div class="col-md d-flex flex-column justify-content-center align-items-flex-start">
             <h2 class="title">Jary Soluções Sustentáveis</h2>
@@ -9,9 +9,11 @@
             </li>
         </div>
         <div class="col mt-5 mt-sm-0 d-flex justify-content-center">
-            <img class="img-fluid" src="/img/img_home3.png">
+            <!-- <img class="img-fluid" src="/img/img_home3.png"> -->
+            <img class="img-fluid" width="300" src="/img/logo_square.png">
         </div>
     </div>
+    <div class="margin_sec pt-4"></div>
 </section>
 
 <section class="px-4 margin_sec" id="about">
@@ -19,9 +21,16 @@
     <div class="row px-0 px-sm-4 mt-4">
         <div class="col-sm d-inline-flex">
             <div class="d-flex justify-content-center align-items-center flex-sm-row flex-column">
-            <p class="subtitle pe-0 pe-sm-5">Somos uma empresa focada na elaboração de produtos de base ambiental que tem como principal laboratório a Floresta Amazônica. Estamos localizados no extremo sul do estado do Amapá, no município de Laranjal do Jari. Atualmente estamos produzindo uma ração alternativa para peixes, com alto valor nutricional e de baixo custo de aquisição para os piscicultores. <br><br><br> Nós não vendemos apenas um produto, vendemos uma história.</p>  
+            <p class="subtitle pe-0 pe-sm-5">Somos uma empresa focada na elaboração de produtos de base ambiental que tem como principal laboratório a Floresta Amazônica. Estamos localizados no extremo sul do estado do Amapá, no município de Laranjal do Jari. Atualmente estamos produzindo uma ração alternativa para peixes, com alto valor nutricional e de baixo custo de aquisição para os piscicultores. <br><br>
+            <b>VISÃO</b><br>
+            Ser reconhecida nacionalmente como uma empresa pioneira na produção de ração alternativas para peixes.<br><br>
+            <b>VALORES</b><br>
+            - Nós não vendemos apenas um produto, vendemos uma história.<br>
+            - Pensou em sustentabilidade e desenvolvimento local, pensou na Jary soluções sustentáveis.<br>
+            - A criatividade e a sustentabilidade ambiental em um só lugar.<br>
+            </p>  
             
-            <img src="/img/logo_square.png" width="300" class="img-fluid">
+            <img src="/img/05.png" width="350" class="img-fluid">
             </div>
         </div>
     </div>

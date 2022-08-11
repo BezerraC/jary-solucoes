@@ -26,6 +26,14 @@ body{
     margin-top: 7rem;
 }
 
+@media (max-width: 600px)
+{
+    .margin_sec
+   {
+    margin-top: 1rem;
+   }
+}
+
 .nav-link:hover{
     color: #00554C !important;
 }
