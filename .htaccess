@@ -1,7 +1,6 @@
 # Various rewrite rules.
 <IfModule mod_rewrite.c>
   RewriteEngine on
-  RewriteRUle ^https://jary-solucoes.herokuapp.com/?$ /jarysolucoes/mask
   AddType text/css .css
   Header add Access-Control-Allow-Origin "*"
   # If your site can be accessed both with and without the 'www.' prefix, you
@@ -18,7 +17,7 @@
   # (http://www.example.com/... will be redirected to http://example.com/...)
   # uncomment and adapt the following:
    RewriteCond %{HTTP_HOST} ^www\.jarysolucoes\.com$ [NC]
-   RewriteRule ^(.*)$ http://jarysolucoes.com/$1 [L,R=301]
+   RewriteRule ^(.*)$ https://jarysolucoes.com/$1 [L,R=301]
 
   # Modify the RewriteBase if you are using Drupal in a subdirectory or in a
   # VirtualDocumentRoot and the rewrite rules are not working properly.
